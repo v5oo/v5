@@ -855,3 +855,266 @@ font-family:'myfont';
   }
 }
 /* wave */
+
+	/*右侧导航*/
+
+.elevator_item .hd-time-limited {
+    display: block;
+    position: fixed;
+    right: 10.6px;
+    bottom: 450px;
+    width: 40px;
+    height: 140px;
+    background: url(https://www.6fwq.com/wp-content/uploads/2019/01/time-limited.png) no-repeat center;
+    animation: vip-199-180510 2.4s infinite;
+    margin-top: 10px;
+}
+
+@keyframes vip-199-180510 {
+    0% {
+        bottom: 442px;
+    }
+    50% {
+        bottom: 450px;
+    }
+    100% {
+        bottom: 442px;
+    }
+}
+
+.aj-popbox .hd-time-limited .close-btn {
+    width: 38px;
+    height: 38px;
+    right: 28px;
+    top: 30px;
+    line-height: 38px;
+    text-align: center
+}
+
+.aj-popbox .hd-time-limited .close-btn i {
+    font-size: 24px;
+    color: #fff
+}
+
+.aj-popbox .hd-time-limited .timer {
+    margin: 296px auto 0;
+    width: 234px;
+    font-size: 30px;
+    color: #000;
+    line-height: 48px;
+    padding-left: 10px;
+    letter-spacing: 13px;
+    font-weight: bold
+}
+
+.aj-popbox .hd-time-limited .go-hd:hover {
+    transform: scale(.95) translateY(2px)
+}
+
+.elevator_item {
+    position: fixed;
+    right: 12px;
+    bottom: 195px;
+    z-index: 11
+}
+
+.elevator_item .feedback {
+    width: 36px;
+    height: 40px;
+    background-color: #fff;
+    color: #fa3c64;
+    font-size: 12px;
+    padding: 5px 6px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .35);
+    cursor: pointer
+}
+
+.elevator_item .advice,
+.elevator_item .add,
+.elevator_item .return {
+    color: #383838;
+    line-height: 30px
+}
+
+.elevator_item .advice i {
+    font-size: 28px
+}
+
+.elevator_item .add i,
+.elevator_item .return i {
+    font-size: 20px
+}
+
+.elevator_item .medium {
+    position: relative;
+    background-color: #fa3c64;
+    color: #fff
+}
+
+.elevator_item .medium .lf-box {
+    display: none;
+    position: absolute;
+    right: 41px;
+    top: -90px;
+    width: 370px;
+    height: 280px;
+    padding-right: 10px
+}
+
+.elevator_item .medium .sp-list {
+    width: 360px;
+    height: 280px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .35)
+}
+
+.elevator_item .medium .sp-list li:first-child {
+    height: 70px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 50px
+}
+
+.elevator_item .medium li:first-child span {
+    font-size: 14px;
+    color: #383838;float: left;
+    line-height: 30px
+}
+
+.elevator_item .medium .btn-addGroup {
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    background: #fa3c64;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    margin-left: 14px
+}
+
+.elevator_item .medium .spl-li {
+    padding: 22px 34px 0
+}
+
+.elevator_item .medium .spl-li span {
+    display: block;
+    font-size: 14px;
+    color: #383838;
+    margin-bottom: 8px
+}
+
+.elevator_item .medium .spl-li img {
+    width: 130px
+}
+
+.elevator_item .add {
+    position: relative
+}
+
+.elevator_item .add .lf-box {
+    display: none;
+    position: absolute;
+    right: 31px;
+    top: -32px;
+    width: 178px;
+    height: 104px;
+    padding-right: 10px
+}
+
+.elevator_item .add .sp-list {
+    width: 168px;
+    height: 104px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(100, 25, 25, 0.35)
+}
+
+.elevator_item .add .sp-list li {
+    line-height: 52px;
+    font-size: 14px;
+    color: #383838;
+    text-align: left
+}
+
+.elevator_item .add .sp-list li a {
+    display: block;
+    height: 52px;
+    width: 100%
+}
+
+.elevator_item .add .sp-list li:hover a {
+    color: #fa3c64
+}
+
+.elevator_item .add .sp-list li:hover i {
+    color: #fa3c64
+}
+
+.elevator_item .add .sp-list li:first-child {
+    border-bottom: 1px solid #e5e5e5
+}
+
+.elevator_item .add .sp-list i {
+    color: #d8d8d8;
+    font-size: 28px;
+    margin-left: 16px;
+    margin-right: 14px;
+    vertical-align: middle
+}
+
+.elevator_item .add:hover>i,
+.elevator_item .return:hover>i {
+    color: #fa3c64
+}
+
+.elevator_item .feedback:hover .lf-box {
+    display: block
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.graHover {
+    position: relative;
+    overflow: hidden
+}
+
+.graHover:before {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .2)
+}
+
+.graHover:hover:before {
+    display: block
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
+@media screen and (max-width: 1221px) { .wapnone{display:none; }
+/*右侧导航*/
